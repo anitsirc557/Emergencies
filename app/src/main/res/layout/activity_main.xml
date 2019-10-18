@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvCameras"
+            android:layout_width="match_parent"
+            android:layout_height="229dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/selectionCoordinates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Coordinates"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ivCamera"
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+            android:onClick="cambiarPantalla" />
+
+        <TextView
+            android:id="@+id/Hola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>
